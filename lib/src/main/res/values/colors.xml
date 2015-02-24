@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COLORS -->
+    <color name="black">#000000</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+
+
+    <!-- GENERAL -->
+    <color name="nav_drawer_bg">@color/white</color>
+    <color name="nav_drawer_header_bg">#B0BEC5</color>
+    <color name="actionbar">#B0BEC5</color>
+    <color name="statusbar">#607D8D</color>
+    <color name="accent_color">#0d7963</color>
+    <color name="brand_color">#ff0a0fff</color>
+    <color name="main_screen_bg">#FFFFFF</color>
+    <color name="main_screen_text">@color/black</color>
+
+</resources>

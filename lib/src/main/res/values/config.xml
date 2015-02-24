@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="is_remote_sidemenu">false</bool>
+    <string name="sidemenu_location">side_menu_content.json</string>
+</resources>

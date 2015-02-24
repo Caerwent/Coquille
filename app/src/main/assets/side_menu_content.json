@@ -1,0 +1,39 @@
+{
+
+ "items":
+    [
+
+     {
+     "label": "header",
+     "type": "0"
+     }
+	 ,
+     {
+          "label": "section1",
+          "type": "1",
+          "remote":"true",
+          "data":"http://google.com"
+     }
+
+     ,
+      {
+               "label": "section2",
+               "type": "2",
+               "remote":"false",
+               "data":"section2.json"
+               },
+     {
+          "label": "header 2",
+          "type": "0"
+          }
+     	 ,
+          {
+               "label": "section3",
+               "type": "1",
+               "remote":"false",
+               "data":"file:///android_asset/section3.html"
+               }
+
+          ]
+
+}

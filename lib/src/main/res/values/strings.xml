@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coquille</string>
+    <string name="click_twice_to_quit">Appuyez une deuxième fois pour quitter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="loading_data">Chargement des données</string>
+
+    <string name="action_about">A propos</string>
+
+    <string name="no_connection_msg">Impossible de charger les données. Veuillez vérifier d\'avoir une connexion internet ou réessayez plus tard.</string>
+
+    <!-- ABOUT -->
+    <string name="about">About</string>
+    <string name="about_version">Version</string>
+    <string name="about_revision">Revision</string>
+
+</resources>

@@ -1,0 +1,22 @@
+{
+
+ "items":
+    [
+
+     {
+     "label": "offline mode",
+     "type": "0"
+     }
+	 ,
+
+      {
+               "label": "section",
+               "type": "2",
+               "remote":"false",
+               "data":"section_offline.json"
+               }
+
+
+          ]
+
+}

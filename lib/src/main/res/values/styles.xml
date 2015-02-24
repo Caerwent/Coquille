@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CoquilleAppTheme" parent="Theme.AppCompat.Light">
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/actionbar</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/statusbar</item>
+
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+    </style>
+
+
+    <!-- global styles -->
+    <style name="DefaultContainer">
+        <item name="android:background">@color/main_screen_bg</item>
+    </style>
+
+    <style name="MainContainer" parent="@style/DefaultContainer">
+
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <!-- NAV DRAWER style -->
+    <style name="NavDrawerContainer">
+        <item name="android:background">@color/nav_drawer_bg</item>
+    </style>
+
+    <style name="NavDrawer_list">
+        <item name="android:background">@color/nav_drawer_bg</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+
+    </style>
+
+    <style name="NavDrawer_header">
+        <item name="android:background">@color/nav_drawer_header_bg</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/nav_drawer_header_txt_size</item>
+    </style>
+
+    <style name="NavDrawer_item">
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textSize">@dimen/nav_drawer_item_txt_size</item>
+    </style>
+
+    <!-- LOADING DATA style -->
+
+    <style name="LoadingDataMainContainer" parent="@style/MainContainer">
+
+    </style>
+
+    <style name="LoadingDataText">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/main_screen_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/loading_data_text_size</item>
+    </style>
+    <!-- SIMPLE CONTENT style -->
+
+    <style name="SimpleContentMainContainer" parent="@style/MainContainer">
+
+    </style>
+
+
+    <style name="NoConnexionContainer" parent="@style/MainContainer">
+
+    </style>
+
+    <style name="NoConnexionText">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/main_screen_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/no_connexion_text_size</item>
+    </style>
+
+    <style name="WebviewMainContainer" parent="@style/MainContainer">
+
+    </style>
+
+
+    <!-- ABOUT style -->
+
+    <style name="AboutMainContainer" parent="@style/MainContainer">
+
+    </style>
+
+    <style name="AboutText">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/main_screen_text</item>
+    </style>
+
+    <style name="AboutText.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/about_text_title</item>
+    </style>
+
+    <style name="AboutText.Subtitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/about_text_normal</item>
+    </style>
+
+    <style name="AboutText.SectionNormal">
+        <item name="android:textSize">@dimen/text_section_normal</item>
+        <item name="android:textColor">@color/main_screen_text</item>
+    </style>
+
+    <style name="Section">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/main_screen_text</item>
+    </style>
+
+    <style name="Section.SectionTitle">
+        <item name="android:textSize">@dimen/text_section_title</item>
+        <item name="android:textColor">@color/brand_color</item>
+    </style>
+
+    <style name="Section.SectionNormal">
+        <item name="android:textSize">@dimen/text_section_normal</item>
+        <item name="android:textColor">@color/main_screen_text</item>
+    </style>
+
+    <style name="Section.SectionNormalWithLink" parent="@Section.SectionNormal">
+        <item name="android:autoLink">web</item>
+        <item name="android:textColorLink">@color/main_screen_text</item>
+    </style>
+</resources>
