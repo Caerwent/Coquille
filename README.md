@@ -48,4 +48,11 @@ Finally, go into the app/src/main/res/values folder and change the config.xml fi
 
 
 ## B. Build your application
-TO BE CONTINUED
+Coquille has a gradle build script, just set your keystore file and password in application gradle script and launch the build process.
+Open the app/gradle.build file, uncomment the signingConfigs release block and set your password and alias. Copy your keystore file into the app folder.
+Go to the root folder, open a terminal and launch the command:
+			- for Linux or Mac OSX user : ./gradlew build
+			- for Windows user : ./gradlew.bat build
+			
+If no error occurs, apk files are generated in app/build/output/apk folder, the signed one can be deployed on Google Store.
+			
