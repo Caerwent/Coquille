@@ -38,10 +38,15 @@ Simple json files have a simple structure, they are composed of a list of title/
 If you need more complexe content, you can use html files but pay attention they will be displayed in an embedd webview.
 One you have your content data files, create a json file to describe the side menu.
 Each side menu element is described using 4 fields:
-       - label, which contains the text displayed in side menu for the item
-       - type, with 3 possible values: 0 for section header element, 1 for html content element and 2 for simple json content element
-       - remote, true if content file associated to this menu entry is a remote file, false in other case. This field is not required for section header element
-       - data, contains the content data file url or location. For local data file, use the following scheme "file:///android_asset/". It can be an html or simple json file following the type field value
+
+- label, which contains the text displayed in side menu for the item
+- type, with 3 possible values: 
+
+	* 0 for section header element, 
+	* 1 for html content element
+	* 2 for simple json content element
+- remote, true if content file associated to this menu entry is a remote file, false in other case. This field is not required for section header element
+- data, contains the content data file url or location. For local data file, use the following scheme "file:///android_asset/". It can be an html or simple json file following the type field value
 See side_menu_content.json sample file for more details.
 
 Finally, go into the app/src/main/res/values folder and change the config.xml file to set the side menu file. For remote side menu file, the sidemnu_location parameter contains the url. For local file, no need to use the "file:///android_asset/" scheme, set directly the json file name located in assets folder. 
@@ -51,8 +56,9 @@ Finally, go into the app/src/main/res/values folder and change the config.xml fi
 Coquille has a gradle build script, just set your keystore file and password in application gradle script and launch the build process.
 Open the app/gradle.build file, uncomment the signingConfigs release block and set your password and alias. Copy your keystore file into the app folder.
 Go to the root folder, open a terminal and launch the command:
-       - for Linux or Mac OSX user : ./gradlew build
-       - for Windows user : ./gradlew.bat build
+
+- for Linux or Mac OSX user : ./gradlew build
+- for Windows user : ./gradlew.bat build
 			
 If no error occurs, apk files are generated in app/build/output/apk folder, the signed one can be deployed on Google Store.
 			
